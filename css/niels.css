@@ -1,0 +1,61 @@
+.note1 {
+	padding-top: 60px;
+}
+
+.note1 #yeoman-img {
+	position: relative;
+	left: -10px;
+}
+
+.note1 #angular {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 300px;
+	top: -10px;
+	position: relative;
+	left: 20px;
+}
+
+h2.by-title {
+	margin-top: 70px;
+}
+
+h2.author {
+	position: relative;
+}
+
+div.authors {
+	overflow: hidden;
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+	height: 150px;
+	opacity: 1;
+}
+
+.author.left, .author.right {
+	position: absolute;
+	top: 0;
+	margin: 0;
+}
+
+h2.author.left {
+	left: 0;
+	margin: 0;
+}
+
+h2.author.right {
+	right: 0;
+}
+
+div.authors h2 span.name {
+	display: block;
+	height: 30px;
+}
+
+div.authors h2 span.handle {
+	font-size: .8em;
+	opacity: .8;
+}
