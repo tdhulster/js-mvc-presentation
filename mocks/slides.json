@@ -6,6 +6,43 @@
 			"path":"/intro",
 			"templateUrl":"partials/slide1.html",
 			"controller":"SlideController"
+		},  
+		{
+			"path":"/yeoman",
+			"templateUrl":"partials/slide2.html",
+			"controller":"SlideController"
+		}
+		, 
+		{
+			"path":"/yeomanDemo",
+			"templateUrl":"partials/slide3.html",
+			"controller":"SlideController"
+		},
+		{
+			"path":"/angularjs",
+			"templateUrl":"partials/slide4.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/angular_hard_way",
+			"templateUrl":"partials/slide5.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/basic_structure",
+			"templateUrl":"partials/slide6.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/twitstream_app",
+			"templateUrl":"partials/slide7.html",
+			"controller":"SlideController"
+		}
+		, 
+		{
+			"path":"/twitstream_tips",
+			"templateUrl":"partials/slide8.html",
+			"controller":"SlideController"
 		}
 	]
 }
