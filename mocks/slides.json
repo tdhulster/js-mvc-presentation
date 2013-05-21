@@ -24,12 +24,12 @@
 			"controller":"SlideController"
 		}, 
 		{
-			"path":"/angular_hard_way",
+			"path":"/basic_structure",
 			"templateUrl":"partials/slide5.html",
 			"controller":"SlideController"
 		}, 
 		{
-			"path":"/basic_structure",
+			"path":"/angular_hard_way",
 			"templateUrl":"partials/slide6.html",
 			"controller":"SlideController"
 		}, 
@@ -62,6 +62,11 @@
 		{
 			"path":"/bindings",
 			"templateUrl":"partials/slide12.html",
+			"controller":"SlideController"
+		},
+		{
+			"path":"/thanks",
+			"templateUrl":"partials/slide13.html",
 			"controller":"SlideController"
 		}
 	]
