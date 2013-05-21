@@ -1,0 +1,11 @@
+
+{
+	"title":"Angular.js : Using Yeoman with AngularJS",
+	"slides":[
+		{
+			"path":"/intro",
+			"templateUrl":"partials/slide1.html",
+			"controller":"SlideController"
+		}
+	]
+}
