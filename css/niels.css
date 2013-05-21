@@ -5,6 +5,7 @@
 .note1 #yeoman-img {
 	position: relative;
 	left: -10px;
+	width: 350px;
 }
 
 .note1 #angular {
@@ -12,10 +13,10 @@
 	margin-bottom: 0;
 	margin-left: 0;
 	margin-right: 0;
-	width: 300px;
-	top: -10px;
+	width: 285px;
+	top: -2px;
 	position: relative;
-	left: 20px;
+	left: 10px;
 }
 
 h2.by-title {
