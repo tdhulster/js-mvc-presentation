@@ -60,3 +60,19 @@ div.authors h2 span.handle {
 	font-size: .8em;
 	opacity: .8;
 }
+
+
+/* --- SLIDE 2 --- */
+.slide2 h1 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* --- SLIDE 3 --- */
+.slide3 h1 {
+	margin-top: 75px;
+}
+
+.slide3 #yeoman-sit {
+	width: 500px;
+}
