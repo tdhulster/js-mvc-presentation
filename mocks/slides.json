@@ -43,6 +43,26 @@
 			"path":"/twitstream_tips",
 			"templateUrl":"partials/slide8.html",
 			"controller":"SlideController"
+		},
+		{
+			"path":"/factories",
+			"templateUrl":"partials/slide9.html",
+			"controller":"SlideController"
+		},
+		{
+			"path":"/filters",
+			"templateUrl":"partials/slide10.html",
+			"controller":"SlideController"
+		},
+		{
+			"path":"/directories",
+			"templateUrl":"partials/slide11.html",
+			"controller":"SlideController"
+		},
+		{
+			"path":"/bindings",
+			"templateUrl":"partials/slide12.html",
+			"controller":"SlideController"
 		}
 	]
 }
