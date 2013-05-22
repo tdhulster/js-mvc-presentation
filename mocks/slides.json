@@ -11,12 +11,6 @@
 			"path":"/yeoman",
 			"templateUrl":"partials/slide2.html",
 			"controller":"SlideController"
-		}
-		, 
-		{
-			"path":"/yeomanDemo",
-			"templateUrl":"partials/slide3.html",
-			"controller":"SlideController"
 		},
 		{
 			"path":"/angularjs",
@@ -37,8 +31,12 @@
 			"path":"/twitstream_app",
 			"templateUrl":"partials/slide7.html",
 			"controller":"SlideController"
-		}
-		, 
+		}, 
+		{
+			"path":"/yeomanDemo",
+			"templateUrl":"partials/slide3.html",
+			"controller":"SlideController"
+		}, 
 		{
 			"path":"/twitstream_tips",
 			"templateUrl":"partials/slide8.html",

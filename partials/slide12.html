@@ -2,7 +2,18 @@
 	<h1>Bindings</h1>
 	<h2>DON'T BREAK YOUR BINDINGS</h2>
 	<h3>The wrong way</h3>
-	<img src="img/egghead-screen-wrong.png">
+	<pre class="highlightjs html">
+	<code>
+		<div ng-app="">
+			<input type="text" ng-model="message">
+			<h1>{{message}}</h1>
+			<div ng-controller="FirstCtrl">
+				<input type="text" ng-model="message">
+				<h1>{{message}}</h1>
+			</div> 
+		</div>	
+	</code>
+	</pre>
 	<h3>The good way</h3>
-	<img src="img/egghead-screen-good.png">
+
 </div>
