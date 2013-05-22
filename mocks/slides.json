@@ -18,6 +18,26 @@
 			"controller":"SlideController"
 		}, 
 		{
+			"path":"/learn-angular",
+			"templateUrl":"partials/slide4-1.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/learn-angular-step1",
+			"templateUrl":"partials/slide4-2.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/learn-angular-step2",
+			"templateUrl":"partials/slide4-3.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/learn-angular-step3",
+			"templateUrl":"partials/slide4-4.html",
+			"controller":"SlideController"
+		}, 
+		{
 			"path":"/basic_structure1",
 			"templateUrl":"partials/slide5-1.html",
 			"controller":"SlideController"
