@@ -94,6 +94,35 @@ div.authors h2 span.handle {
 	color: black;
 	opacity: .5;
 }
+/* --- SLIDE 5 --- */
+.node5 h1 {
+	margin: 25px 0 0 0;
+}
+
+#ng-img {
+	margin: 80px 0 0 0;
+	outline: 1px solid #e9a84d;
+    border-top: 1px solid #fff;
+    padding: 10px;
+    background: #f4cf8c;
+}
+
+/* --- SLIDE 6 --- */
+.node6 h1 {
+	line-height: 1.6em;
+}
+
+.node6 h1.first {
+	margin-top: 225px;
+}
+
+.node13 h1 {
+	margin-top: 100px;
+}
+
+#thanks {
+	margin-top: 65px;
+}
 
 /* --- SLIDE 12 --- */
 .slide12 pre code {
