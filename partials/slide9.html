@@ -1,5 +1,25 @@
 <div class="slide">
-	<h1>Factories</h1>
-	<h2> We used a factory to store and manage our data </h2>
-	<h2> singleton </h2>
+	<h1>Factories for data</h1>
+	<h2>They allow you to load initial data only once.</h2>
+	<pre class="highlightjs">
+		<code>
+
+
+
+			app.factory('Data', ['socketio', function(socketio)
+			{
+				return {
+					// data
+					tweets: [],
+					keyword: 'AngularJS',
+
+					// methods
+					setKeyword: function(keyword)
+					{
+						socketio.emit('set:keyword', keyword);
+					}
+				}
+			}]);
+		</code>
+		</pre>
 </div>
