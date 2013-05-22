@@ -99,6 +99,15 @@ div.authors h2 span.handle {
 	margin: 25px 0 0 0;
 }
 
+.node5 ul {
+	margin-top: 75px;
+	font-size: 2.5em;
+}
+
+.node5 li {
+	line-height: 2.5em;
+}
+
 #ng-img {
 	margin: 80px 0 0 0;
 	outline: 1px solid #e9a84d;

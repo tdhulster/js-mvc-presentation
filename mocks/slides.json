@@ -26,32 +26,7 @@
 			"path":"/basic_structure2",
 			"templateUrl":"partials/slide5-2.html",
 			"controller":"SlideController"
-		}, 
-		{
-			"path":"/basic_structure3",
-			"templateUrl":"partials/slide5-3.html",
-			"controller":"SlideController"
-		}, 
-		{
-			"path":"/basic_structure4",
-			"templateUrl":"partials/slide5-4.html",
-			"controller":"SlideController"
-		}, 
-		{
-			"path":"/basic_structure5",
-			"templateUrl":"partials/slide5-5.html",
-			"controller":"SlideController"
-		}, 
-		{
-			"path":"/basic_structure6",
-			"templateUrl":"partials/slide5-6.html",
-			"controller":"SlideController"
 		},
-		{
-			"path":"/angular_hard_way",
-			"templateUrl":"partials/slide6.html",
-			"controller":"SlideController"
-		}, 
 		{
 			"path":"/yeomanDemo",
 			"templateUrl":"partials/slide3.html",
