@@ -107,3 +107,12 @@ div.authors h2 span.handle {
     padding: 10px;
     background: #f4cf8c;
 }
+
+/* --- SLIDE 6 --- */
+.node6 h1 {
+	line-height: 1.6em;
+}
+
+.node6 h1.first {
+	margin-top: 225px;
+}
