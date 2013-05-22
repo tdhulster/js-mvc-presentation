@@ -1,19 +1,51 @@
-<div class="slide">
+<div class="slide slide12">
 	<h1>Bindings</h1>
 	<h2>DON'T BREAK YOUR BINDINGS</h2>
-	<h3>The wrong way</h3>
-	<pre class="highlightjs html">
-	<code>
-		<div ng-app="">
-			<input type="text" ng-model="message">
-			<h1>{{message}}</h1>
-			<div ng-controller="FirstCtrl">
-				<input type="text" ng-model="message">
-				<h1>{{message}}</h1>
-			</div> 
-		</div>	
-	</code>
-	</pre>
-	<h3>The good way</h3>
+	<div class="inline">
+		<h3>The wrong way</h3>
+		<pre class="highlightjs">
+			<code>
+	&lt;div ng-app=""&gt;
 
+		&lt;input type="text" ng-model="message"&gt;
+		&lt;h1&gt;{{message}}&lt;/h1&gt;
+
+		&lt;div ng-controller="FirstCtrl"&gt;
+			&lt;input type="text" ng-model="message"&gt;
+			&lt;h1&gt;{{message}}&lt;/h1&gt;
+		&lt;/div&gt; 
+
+		&lt;div ng-controller="SecondCtrl"&gt;
+			&lt;input type="text" ng-model="message"&gt;
+			&lt;h1&gt;{{message}}&lt;/h1&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;	
+			</code>
+		</pre>
+	</div>
+	
+	<div class="inline">
+		<h3>The good way</h3>
+		<pre class="highlightjs">
+			<code>
+	&lt;div ng-app=""&gt;
+
+		&lt;input type="text" ng-model="data.message"&gt;
+		&lt;h1&gt;{{data.message}}&lt;/h1&gt;
+
+		&lt;div ng-controller="FirstCtrl"&gt;
+			&lt;input type="text" ng-model="data.message"&gt;
+			&lt;h1&gt;{{data.message}}&lt;/h1&gt;
+		&lt;/div&gt; 
+
+		&lt;div ng-controller="SecondCtrl"&gt;
+			&lt;input type="text" ng-model="data.message"&gt;
+			&lt;h1&gt;{{data.message}}&lt;/h1&gt;
+		&lt;/div&gt;
+		
+	&lt;/div&gt;	
+			</code>
+		</pre>
+	</div>
 </div>

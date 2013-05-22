@@ -94,3 +94,12 @@ div.authors h2 span.handle {
 	color: black;
 	opacity: .5;
 }
+
+/* --- SLIDE 12 --- */
+.slide12 pre code {
+	overflow: auto;
+	height: auto;
+}
+.slide12 .inline{
+	display: inline-block;
+}
