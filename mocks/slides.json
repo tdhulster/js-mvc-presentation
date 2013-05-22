@@ -58,8 +58,18 @@
 			"controller":"SlideController"
 		},
 		{
-			"path":"/twitstream_app",
-			"templateUrl":"partials/slide7.html",
+			"path":"/twitstream_app1",
+			"templateUrl":"partials/slide7-1.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/twitstream_app_b",
+			"templateUrl":"partials/slide7-2.html",
+			"controller":"SlideController"
+		}, 
+		{
+			"path":"/twitstream_app3",
+			"templateUrl":"partials/slide7-3.html",
 			"controller":"SlideController"
 		}, 
 		{
