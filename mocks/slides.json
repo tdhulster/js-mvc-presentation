@@ -11,6 +11,11 @@
 			"path":"/yeoman",
 			"templateUrl":"partials/slide2.html",
 			"controller":"SlideController"
+		},  
+		{
+			"path":"/yeoman-setup",
+			"templateUrl":"partials/slide2-1.html",
+			"controller":"SlideController"
 		},
 		{
 			"path":"/angularjs",
