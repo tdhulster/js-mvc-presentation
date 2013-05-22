@@ -99,6 +99,15 @@ div.authors h2 span.handle {
 	margin: 25px 0 0 0;
 }
 
+.node5 ul {
+	margin-top: 75px;
+	font-size: 2.5em;
+}
+
+.node5 li {
+	line-height: 2.5em;
+}
+
 #ng-img {
 	margin: 80px 0 0 0;
 	outline: 1px solid #e9a84d;
@@ -129,11 +138,29 @@ div.authors h2 span.handle {
 	margin-top: 50px;
 	margin-bottom: 80px;
 }
+
 /* --- SLIDE 12 --- */
+.slide12 h1 {
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+
 .slide12 pre code {
 	overflow: auto;
 	height: auto;
 }
 .slide12 .inline{
 	display: inline-block;
+}
+
+.slide12 h3 {
+	font-size: 2em;
+}
+
+h3.good {
+	color: green;
+}
+
+.slide12 pre {
+	margin: 0 15px;
 }
