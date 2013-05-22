@@ -170,3 +170,25 @@ h3.good {
 .node8 h1 {
 	margin-top: 275px;
 }
+
+#html-code {
+	/*height: 75px;*/
+	margin-bottom: 0px;
+	margin-top: 35px;
+	position: relative;	
+}
+
+#html-code code {
+	height: 65px;
+	overflow: hidden;
+}
+
+#js-code {
+	position: relative;
+	top: -25px;
+}
+
+#js-code code {
+	overflow: hidden;
+	height: 250px;
+}

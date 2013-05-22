@@ -2,17 +2,14 @@
 	<h1>Use filters</h1>
 	<h2>Standard- or custom filters are both <strong>reusable</strong> and <strong>readable</strong></h2>
 
-	<pre class="highlightjs">
+	<pre class="highlightjs" id="html-code">
 		<code>
 			&#60;div ng-repeat="item in myArray|orderBy:name|reverse|unique"&#62;&#60;/div&#62;
 		</code>
 	</pre>
 
-	<pre class="highlightjs">
+	<pre class="highlightjs" id="js-code">
 		<code>
-
-
-
 			app.filter('unique', function ()
 			{
 				return function (items)
