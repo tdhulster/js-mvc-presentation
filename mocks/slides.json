@@ -53,13 +53,13 @@
 			"controller":"SlideController"
 		}, 
 		{
-			"path":"/twitstream_app",
-			"templateUrl":"partials/slide7.html",
-			"controller":"SlideController"
-		}, 
-		{
 			"path":"/yeomanDemo",
 			"templateUrl":"partials/slide3.html",
+			"controller":"SlideController"
+		},
+		{
+			"path":"/twitstream_app",
+			"templateUrl":"partials/slide7.html",
 			"controller":"SlideController"
 		}, 
 		{
