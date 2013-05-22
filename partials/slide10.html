@@ -1,8 +1,28 @@
 <div class="slide">
-	<h1>Filters</h1>
-	<h2>Built-in</h2>
-	<h2>Custom filters</h2>
-	<h3>One functionality per filter</h3>
-	<h3>Re-usability</h3>
-	<h3>Clean and readable HTML-code</h3>
+	<h1>Use filters</h1>
+	<h2>Standard- or custom filters are both <strong>reusable</strong> and <strong>readable</strong></h2>
+
+	<pre class="highlightjs">
+		<code>
+			&#60;div ng-repeat="item in myArray|orderBy:name|reverse|unique"&#62;&#60;/div&#62;
+		</code>
+	</pre>
+
+	<pre class="highlightjs">
+		<code>
+
+
+
+			app.filter('unique', function ()
+			{
+				return function (items)
+				{
+					return items.reverse().filter(function (e, i, arr)
+					{
+					    return arr.indexOf(e, i + 1) === -1;
+					}).reverse();
+				};
+			});
+		</code>
+	</pre>
 </div>
