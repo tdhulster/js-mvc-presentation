@@ -201,5 +201,25 @@ h3.good {
 
 #js-code code {
 	overflow: hidden;
-	height: 250px;
+	height: 240px;
+}
+
+#js-code-big {
+	position: relative;
+	top: -25px;
+}
+
+#js-code-big code {
+	overflow: hidden;
+	height: 240px;
+}
+
+#js-code-small {
+	position: relative;
+	top: -55px;
+}
+
+#js-code-small code {
+	overflow: hidden;
+	height: 150px;
 }

@@ -1,6 +1,36 @@
 <div class="slide">
-	<h1>Directories</h1>
-	<h2>The power behind Angular</h2>
-	<h3>Adds functionality to your HTML-elements</h3>
-	<h3>If you use them well : reusable </h3>
+	<h1>Directives, the power behind Angular</h1>
+
+
+	<pre class="highlightjs" id="html-code">
+		<code>
+			&#60;input ng-model="data.keyword" enter="setKeyword(data.keyword)" /&#62;
+		</code>
+	</pre>
+
+	<pre class="highlightjs" id="js-code-big">
+		<code>
+			app.directive('enter', [function ()
+			{
+				return function(scope, element, attrs)
+				{
+					element.bind('keypress', function(event) {
+						if (event.keyCode == 13)
+							scope.$apply(attrs.enter)
+					});
+				};
+			}]);
+		</code>
+	</pre>
+
+	<pre class="highlightjs" id="js-code-small">
+		<code>
+			app.controller('MainCtrl', ['$scope', 'Data', function ($scope, socketio, Data)
+			{
+				$scope.setKeyword = function (keyword) {
+					Data.setKeyword(keyword);
+				};
+			}]);
+		</code>
+	</pre>
 </div>
