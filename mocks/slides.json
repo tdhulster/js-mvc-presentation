@@ -53,11 +53,6 @@
 			"controller":"SlideController"
 		},
 		{
-			"path":"/yeomanDemo",
-			"templateUrl":"partials/slide3.html",
-			"controller":"SlideController"
-		},
-		{
 			"path":"/twitstream_app1",
 			"templateUrl":"partials/slide7-1.html",
 			"controller":"SlideController"
@@ -71,7 +66,12 @@
 			"path":"/twitstream_app3",
 			"templateUrl":"partials/slide7-3.html",
 			"controller":"SlideController"
-		}, 
+		},
+		{
+			"path":"/yeomanDemo",
+			"templateUrl":"partials/slide3.html",
+			"controller":"SlideController"
+		},
 		{
 			"path":"/twitstream_tips",
 			"templateUrl":"partials/slide8.html",
